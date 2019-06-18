@@ -2,10 +2,9 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const cors = require('cors');
 const quotes = require('random-movie-quotes');
 
-app.use(cors());
+app.use(express.static('public'));
 
 app.get('/quote', (req, res) => {
   res.json({
