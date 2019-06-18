@@ -1,7 +1,12 @@
+# Running the app
+1. Clone this repo locally.
+2. Run ```npm install``` to ensure necessary packages are installed.
+3. Run ```npm start``` to run the web server.
+4. To view the app in your browser, go to ```http://localhost:3000/```.
+
 # Assignment
 
 ## Objectives
-
 By the end of this project you will:
 
 - clone a Github project.
